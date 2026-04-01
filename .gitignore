@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.vscode/
+middlebox_detection/results/raw/*/sent_log*.json
+middlebox_detection/results/raw/*/recv_log.json
