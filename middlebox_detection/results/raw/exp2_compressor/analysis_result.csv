@@ -1,0 +1,2 @@
+expname,mode,lA_t0,lB_t0,Dl_t0,lA_t1,lB_t1,Dl_t1,lA_t2,lB_t2,Dl_t2,lA_t3,lB_t3,Dl_t3,lA_t4,lB_t4,Dl_t4,median_Dl,threshold,detected
+exp2_compressor,compressor,0.5010,0.0000,0.5010,0.5010,0.0000,0.5010,0.5010,0.0000,0.5010,0.5010,0.0000,0.5010,0.5010,0.0000,0.5010,0.5010,0.20,True

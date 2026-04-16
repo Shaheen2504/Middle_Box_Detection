@@ -1,0 +1,39 @@
+{
+  "expname": "exp3_spq",
+  "mode": "spq",
+  "per_trial": [
+    {
+      "trial": 0,
+      "lA": 0.99,
+      "lB": 0.0,
+      "delta_l": 0.99
+    },
+    {
+      "trial": 1,
+      "lA": 0.99,
+      "lB": 0.0,
+      "delta_l": 0.99
+    },
+    {
+      "trial": 2,
+      "lA": 0.99,
+      "lB": 0.0,
+      "delta_l": 0.99
+    },
+    {
+      "trial": 3,
+      "lA": 0.99,
+      "lB": 0.0,
+      "delta_l": 0.99
+    },
+    {
+      "trial": 4,
+      "lA": 0.99,
+      "lB": 0.0,
+      "delta_l": 0.99
+    }
+  ],
+  "median_Dl": 0.99,
+  "threshold": 0.2,
+  "detected": true
+}

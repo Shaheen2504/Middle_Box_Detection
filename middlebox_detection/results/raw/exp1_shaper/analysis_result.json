@@ -1,0 +1,39 @@
+{
+  "expname": "exp1_shaper",
+  "mode": "shaper",
+  "per_trial": [
+    {
+      "trial": 0,
+      "lA": 0.501,
+      "lB": 0.0,
+      "delta_l": 0.501
+    },
+    {
+      "trial": 1,
+      "lA": 0.501,
+      "lB": 0.0,
+      "delta_l": 0.501
+    },
+    {
+      "trial": 2,
+      "lA": 0.501,
+      "lB": 0.0,
+      "delta_l": 0.501
+    },
+    {
+      "trial": 3,
+      "lA": 0.501,
+      "lB": 0.0,
+      "delta_l": 0.501
+    },
+    {
+      "trial": 4,
+      "lA": 0.501,
+      "lB": 0.0,
+      "delta_l": 0.501
+    }
+  ],
+  "median_Dl": 0.501,
+  "threshold": 0.2,
+  "detected": true
+}
