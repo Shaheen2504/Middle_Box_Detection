@@ -1,0 +1,39 @@
+{
+  "expname": "exp4_shaper_comp",
+  "mode": "compressor",
+  "per_trial": [
+    {
+      "trial": 0,
+      "lA": 0.501,
+      "lB": 0.501,
+      "delta_l": 0.0
+    },
+    {
+      "trial": 1,
+      "lA": 0.501,
+      "lB": 0.501,
+      "delta_l": 0.0
+    },
+    {
+      "trial": 2,
+      "lA": 0.501,
+      "lB": 0.501,
+      "delta_l": 0.0
+    },
+    {
+      "trial": 3,
+      "lA": 0.501,
+      "lB": 0.501,
+      "delta_l": 0.0
+    },
+    {
+      "trial": 4,
+      "lA": 0.501,
+      "lB": 0.501,
+      "delta_l": 0.0
+    }
+  ],
+  "median_Dl": 0.0,
+  "threshold": 0.2,
+  "detected": false
+}

@@ -1,0 +1,20 @@
+--- BEFORE ---
+qdisc htb 5: root refcnt 17 r2q 10 default 0x1 direct_packets_stat 0 direct_qlen 1000
+qdisc netem 10: parent 5:1 limit 50
+qdisc htb 5: root refcnt 17 r2q 10 default 0x1 direct_packets_stat 0 direct_qlen 1000
+qdisc netem 10: parent 5:1 limit 10
+
+--- AFTER ENABLING MBs ---
+r_mb1:
+qdisc htb 1: root refcnt 17 r2q 10 default 0x20 direct_packets_stat 0 direct_qlen 1000
+qdisc bfifo 801a: parent 1:20 limit 100000b
+qdisc bfifo 8019: parent 1:10 limit 5Kb
+filter parent 1: protocol ip pref 1 u32 chain 0 
+filter parent 1: protocol ip pref 1 u32 chain 0 fh 800: ht divisor 1 
+filter parent 1: protocol ip pref 1 u32 chain 0 fh 800::800 order 2048 key ht 800 bkt 0 *flowid 1:10 not_in_hw 
+  match 23280000/ffff0000 at 20
+r_mb2:
+qdisc htb 1: root refcnt 17 r2q 10 default 0x1 direct_packets_stat 0 direct_qlen 1000
+qdisc bfifo 100: parent 10:1 limit 5Kb
+qdisc prio 10: parent 1:1 bands 2 priomap 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+qdisc bfifo 200: parent 10:2 limit 5Kb

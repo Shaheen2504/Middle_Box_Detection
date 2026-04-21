@@ -1,0 +1,2 @@
+expname,mode,lA_t0,lB_t0,Dl_t0,lA_t1,lB_t1,Dl_t1,lA_t2,lB_t2,Dl_t2,lA_t3,lB_t3,Dl_t3,lA_t4,lB_t4,Dl_t4,median_Dl,threshold,detected
+exp6_comp_spq,spq,0.5080,0.5100,-0.0020,0.5080,0.5140,-0.0060,0.5020,0.5080,-0.0060,0.5080,0.5180,-0.0100,0.5080,0.5150,-0.0070,-0.0060,0.20,False

@@ -1,0 +1,2 @@
+expname,mode,lA_t0,lB_t0,Dl_t0,lA_t1,lB_t1,Dl_t1,lA_t2,lB_t2,Dl_t2,lA_t3,lB_t3,Dl_t3,lA_t4,lB_t4,Dl_t4,median_Dl,threshold,detected
+exp7_three_chain,spq,0.5080,0.7100,-0.2020,0.5180,0.6710,-0.1530,0.5170,0.5180,-0.0010,0.5070,0.6500,-0.1430,0.5090,0.7080,-0.1990,-0.1530,0.20,False
