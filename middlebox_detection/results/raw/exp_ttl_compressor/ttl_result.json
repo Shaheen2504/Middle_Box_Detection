@@ -1,0 +1,52 @@
+{
+  "hops": [
+    {
+      "ttl": 1,
+      "hop_ip": "10.0.1.2",
+      "icmp_A": 6,
+      "icmp_B": 5,
+      "apparent_lA": 0.97,
+      "apparent_lB": 0.975,
+      "apparent_Dl": -0.005
+    },
+    {
+      "ttl": 2,
+      "hop_ip": "10.0.2.2",
+      "icmp_A": 6,
+      "icmp_B": 5,
+      "apparent_lA": 0.97,
+      "apparent_lB": 0.975,
+      "apparent_Dl": -0.005
+    },
+    {
+      "ttl": 3,
+      "hop_ip": "10.0.3.2",
+      "icmp_A": 6,
+      "icmp_B": 5,
+      "apparent_lA": 0.97,
+      "apparent_lB": 0.975,
+      "apparent_Dl": -0.005
+    },
+    {
+      "ttl": 4,
+      "hop_ip": "10.0.4.2",
+      "icmp_A": 6,
+      "icmp_B": 5,
+      "apparent_lA": 0.97,
+      "apparent_lB": 0.975,
+      "apparent_Dl": -0.005
+    },
+    {
+      "ttl": 5,
+      "hop_ip": "10.0.5.2",
+      "icmp_A": 6,
+      "icmp_B": 5,
+      "apparent_lA": 0.97,
+      "apparent_lB": 0.975,
+      "apparent_Dl": -0.005
+    }
+  ],
+  "max_apparent_Dl": -0.005,
+  "ttl_localization_detected": false,
+  "known_mb_hop": 3
+}
